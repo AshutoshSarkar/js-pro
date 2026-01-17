@@ -1,4 +1,4 @@
-//Creating Objects Using Object Literal
+// Creating Objects Using Object Literal
 
 // let rectangle={
 //     length:10,
@@ -7,7 +7,7 @@
 //         console.log("this is a draw function");
 //     }}
 
-//Creating Objects Using Factory Function
+// Creating Objects Using Factory Function
 
 // function createRectangle(len, bre) {
 //   return {
@@ -19,7 +19,7 @@
 
 // const rec1 = createRectangle(10, 5);
 
-//Creating Objects Using Constructor Function
+// Creating Objects Using Constructor Function
 
 // function Rectangle(len, bre) {
 //   this.length = len;
@@ -38,7 +38,7 @@
 
 // console.log(newRectangle);
 
-//Leaning about reference types and primitive types and how they store values in memory
+// Leaning about reference types and primitive types and how they store values in memory
 
 // let a=10;
 // let b= a;
@@ -54,7 +54,7 @@
 // console.log(a);
 // console.log(b);
 
-//passing object to function and learning how they behave
+// passing object to function and learning how they behave
 // let a ={value:10};
 
 // function inc(a){
@@ -64,7 +64,7 @@
 // inc(a);
 // console.log(a);
 
-//For-In loop
+// For-In loop
 // let rectangle = {
 //   length: 10,
 //   breadth: 5,
@@ -77,7 +77,7 @@
 //     console.log(key, rectangle[key]);
 // }
 
-//For-Of Loop
+// For-Of Loop
 // let rectangle = {
 //    length: 10,
 //    breadth: 5,
@@ -95,7 +95,7 @@
 //     console.log("not present");
 // }
 
-//object cloning basic method
+// object cloning basic method
 
 // let src = {
 //   name: "ashutosh",
@@ -109,7 +109,7 @@
 // }
 // console.log(dest);
 
-//cloning objects using assign operator
+// cloning objects using assign operator
 
 // let src = {
 //   name: "ashutosh",
@@ -119,7 +119,7 @@
 // let dest=Object.assign({},src);
 // console.log(dest);
 
-//cloning objects using spread operator
+// cloning objects using spread operator
 
 // let src = {
 //   name: "Ashutosh",
@@ -128,3 +128,5 @@
 
 // let dest = { ...src };
 // console.log(dest);
+
+
