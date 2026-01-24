@@ -49,7 +49,6 @@
 // let result = numbers.splice(2,3);
 // console.log(numbers);
 
-
 // emotying an array
 
 // let numbers=[1,2,3,4,5];
@@ -73,7 +72,6 @@
 // console.log(numbers);
 // console.log(numbers2);
 
-
 //combining and slicing arrays
 // let first=[1,2,3];
 // let second=[4,5,6];
@@ -86,10 +84,9 @@
 // const slice=result.slice(2,5);
 // console.log(slice);
 
-
 // let numbers=[10,20,30,40,50,60];
 
- //copying an array using slice method
+//copying an array using slice method
 // let copy=numbers.slice();
 // console.log(copy);
 
@@ -98,6 +95,67 @@
 // let sliced= numbers.slice(2);
 // console.log(sliced);
 
+//iterating an array
 
+//for-of loop
+// let numbers=[10,20,30,40,50,60];
 
+// for(let values of numbers){
+//     console.log(values);
+// }
 
+//for-each loop
+// let numbers = [10, 20, 30, 40, 50];
+
+// numbers.forEach(number=> console.log(number));
+
+//joining the array elements
+
+// let numbers=[10,20,30,40,50];
+// let joined=numbers.join('/');
+// console.log(joined);
+
+//splitting the array elements
+
+// let message= 'this is my first message';
+
+// let parts=message.split(' ');
+
+// console.log(parts);
+
+//Sorting an array
+
+// let numbers=[3,4,1,5,2];
+
+// numbers.sort();
+
+// console.log(numbers);
+
+//Reversing an array
+// numbers.reverse();
+// console.log(numbers);
+
+//filtering an array
+
+// let numbers = [-1, -3, -5, 0, 2, 4, 6, 8];
+
+// let filtered = numbers.filter((value)=> value>=0);
+
+// console.log(filtered);
+
+//mapping an array
+// let arr1 = [1, 3, 5, 7];
+// let arr2 = ["rollNo", "studentNo", "itemNo", "idNo"];
+
+// let items = arr2.map(function (key, value) {
+//   return { [key] : arr1[value] };
+// });
+
+// console.log(items);
+
+// let items = arr1.map(function (value) {
+//   return "itemNo." + value;
+// });
+
+// console.log(items);
+// console.log(typeof items);
