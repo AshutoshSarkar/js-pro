@@ -36,13 +36,26 @@ console.log("this is a dom file");
 
 // video 47 mins
 
-let content= document.querySelector(".box-1");
-console.log(content);
+// let content= document.querySelector(".box-1");
+// console.log(content);
 
-let element= document.createElement("h3");
-console.log(element);
+// let element= document.createElement("h3");
+// console.log(element);
 
-element.textContent="this is a created element";
+// element.textContent="this is a created element";
 
-content.insertAdjacentElement('beforeend',element);
+// content.insertAdjacentElement('beforeend',element);
+
+// element.classList.add("tempText");
+
+// content.removeChild(element);
+
+// let content = document.querySelector(".box-1");
+// console.log(content);
+
+// content.style.cssText = "color:blue; background-color:yellow; font-size:50px ";
+
+// content.setAttribute("style", 'color:orange');
+
+// content.setAttribute("id", "heading");
 
