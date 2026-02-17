@@ -159,3 +159,18 @@
 
 // console.log(items);
 // console.log(typeof items);
+
+//some logic building practice
+// let arr = [1, 2, 3, 4, 5];
+
+// function checkValueInArray(arr,value) {
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == value) {
+//       return "your wanted value found at index:"+ " " + i;
+//     }
+//   }
+//   return "not found";
+// }
+
+// console.log(checkValueInArray(arr,1));
+
