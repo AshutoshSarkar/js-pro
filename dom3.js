@@ -1,7 +1,5 @@
 console.log("This is dom3 js file");
 
-
-
 // console.log("abcd");
 // let element= document.getElementById("mainTitle");
 // element.addEventListener("click", function(){
@@ -15,23 +13,30 @@ console.log("This is dom3 js file");
 
 // 1.08 hrs video timing
 
-
-
-console.log("Hello world");
+// console.log("Hello world");
 
 // setTimeout(function() {
 //     console.log("This is setTimeout function");
 // }, 2000); // this will execute after 2 seconds
 
-console.log("This is the end of the code");
+// console.log("This is the end of the code");
 
 //async function example
-async function fetchData() {
-    return "Data fetched";
-}
+// async function fetchData() {
+//     return "Data fetched";
+// }
 
-fetchData().then(function(data) {
-    console.log(data);
-}); // this will execute after the fetchData function is executed
+// fetchData().then(function(data) {
+//     console.log(data);
+// }); // this will execute after the fetchData function is executed
 
-console.log("This is the end of the code");
+// console.log("This is the end of the code");
+
+const arr = [1, 2, 3, 4];
+
+const result = arr.map(function (value, index) {
+  return value * index;
+});
+
+
+console.log(result);

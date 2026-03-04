@@ -174,3 +174,8 @@
 
 // console.log(checkValueInArray(arr,1));
 
+//find function in array
+// let arr = [1, 2, 3, 4, 5];
+
+// let result=arr.find(value=> value===1);
+// console.log(result);
