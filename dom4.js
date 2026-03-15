@@ -88,12 +88,47 @@
 //   return [dM, hM];
 // }
 
-async function apiCall() {
-  let content = await fetch("https://jsonplaceholder.typicode.com/posts/1")
-  .then(function(response){
-    return response.json();
-  })
-  .then
+// async function utility(){
+//   let content= await fetch("https://jsonplaceholder.typicode.com/todos/1");
+//   let response=await content.json();
+//   console.log(response);
+// }
+
+// utility();
+
+// async function utility(){
+//   let content= await fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   .then((response)=>response.json())
+//   .then((json)=> console.log(json));
+
+// }
+
+// utility();
+
+// let arr1=[1,2,3,4,5];
+
+// let arr2= [...arr1];
+
+// console.log(arr2);
+
+async function helper() {
+  let options = {
+    method: "POST",
+    body: JSON.stringify({
+      name: "ashutosh",
+      age: "22",
+    }),
+    headers: {
+      "content-type": "application/json; charset=UTF-8",
+    },
+  };
+
+  let content= await fetch("https://jsonplaceholder.typicode.com/posts", options);
+  let response=await content.json();
+  return response;
 }
 
-apiCall();
+async function utility() {
+  let answer= await helper();
+  console.log(answer);
+}
